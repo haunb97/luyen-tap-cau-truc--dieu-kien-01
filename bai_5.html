@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_5</title>
+</head>
+<body>
+<script>
+    let diemkt = parseInt(prompt('nhập vào điểm kiểm tra'));
+    let diemgk =parseInt(prompt('nhập vào điểm thi giữa kì'));
+    let diemck = parseInt(prompt('nhập vào điểm thi cuối kì'));
+    let diemtbhk =(diemkt + diemgk*2 + diemck*3)/6;
+    if(diemtbhk>=8){alert('xếp loại học sinh giỏi')}
+    else if(diemtbhk>=7){alert('xếp loại học sinh khá')}
+    else if(diemtbhk>=5){alert('xếp loại học sinh trung bình')}
+    else {alert('xếp loại học sinh yếu')}
+</script>
+</body>
+</html>
